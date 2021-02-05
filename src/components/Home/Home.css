@@ -1,0 +1,53 @@
+.Home-content {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+	background-color: #333;
+}
+
+.Home-content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+	background-image: url("../../img/profile.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.Home-page {
+  padding-top: 25px;
+  position: relative;
+  z-index: 2;
+}
+
+#title {
+	text-align: center;
+	color: #fff;
+}
+
+#title h1 {
+  line-height: 0.8;
+  margin-bottom: 24px;
+}
+
+#title h2 {
+  line-height: 0.8;
+  margin-bottom: 32px;
+}
+
+#resources ul {
+	list-style-type: none;
+	margin-top: -8px;
+	padding: 0;
+}
+
+#resources li {
+	display: inline;
+	padding: 5px;
+}
