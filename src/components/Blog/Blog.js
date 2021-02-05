@@ -3,7 +3,9 @@ import React from 'react';
 const Blog = () => {
   return (
     <>
-      <h1>This is the Blog page.</h1>
+      <div className="page" id="blog">
+        <h1>Blog</h1>
+      </div>
     </>
   );
 }
