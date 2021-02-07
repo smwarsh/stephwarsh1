@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Link, Switch } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+import { Route, NavLink, Switch } from 'react-router-dom';
 import './App.css';
 
 // pages
@@ -11,14 +12,14 @@ import Home from './../Home/Home';
 function App() {
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-light bg-light">
+      <Nav className="navbar navbar-expand-md navbar-light bg-light">
         <ul className="navbar-nav">
-          <li key="0" className="nav-item"><Link to="/">Home</Link></li>
-          <li key="1" className="nav-item"><Link to="/portfolio">Portfolio</Link></li>
-          <li key="2" className="nav-item"><Link to="/blog">Blog</Link></li>
-          <li key="3" className="nav-item"><Link to="/contact">Contact</Link></li>
+          <li key="0" className="nav-item"><NavLink to="/" activeClassName="active">Home</NavLink></li>
+          <li key="1" className="nav-item"><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
+          <li key="2" className="nav-item"><NavLink to="/blog" activeClassName="active">Blog</NavLink></li>
+          <li key="3" className="nav-item"><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
         </ul>
-      </nav>
+      </Nav>
 
       <main>
         <Switch>
