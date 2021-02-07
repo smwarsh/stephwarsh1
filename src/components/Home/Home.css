@@ -56,10 +56,6 @@
   .Home-page {
     padding-top: 75px;
   }
-
-  h1 {
-    font-size: 72px;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -71,16 +67,4 @@
     max-width: 600px;
     margin: 0 auto
   }
-
-  h1 {
-    font-size: 96px;
-  }
-
-  h2 {
-    font-size: 48px;
-  }
-
-	h3 {
-		font-size: 28px;
-	}
 }

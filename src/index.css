@@ -40,3 +40,36 @@ a {
 .click a {
 	font-style: italic;
 }
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+		margin: 0 auto;
+		width: 70%;
+		max-width: 960px;
+	}
+
+  .page {
+    margin: 0 auto;
+    padding: 0 0 50px;
+		width: 80%;
+		max-width: 960px;
+  }
+
+  h1 {
+    font-size: 96px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+	h3 {
+		font-size: 28px;
+	}
+}
