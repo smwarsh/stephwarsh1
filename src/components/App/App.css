@@ -10,9 +10,6 @@ main {
 .navbar {
   padding: 0;
   background-color: #fff !important;
-}
-
-.navbar-nav {
   flex-direction: row;
   padding-left: 25px;
 }
@@ -21,14 +18,6 @@ main {
 	display: flex;
 	margin: 0;
 	padding: 16px 8px;
-}
-
-.nav .active {
-  font-weight: bold;
-  background-color: #ff8785;
-}
-
-.nav a {
 	text-decoration: none;
 	color: #333;
 }
@@ -40,5 +29,7 @@ main {
 }
 
 .nav a.active {
+  font-weight: bold;
+  background-color: #ff8785;
   color: #fff;
 }
