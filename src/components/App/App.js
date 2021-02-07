@@ -11,14 +11,13 @@ import Home from './../Home/Home';
 function App() {
   return (
     <div>
-      <nav>
-        <Link to="/">Home</Link>
-        {' '}
-        <Link to="/portfolio">Portfolio</Link>
-        {' '}
-        <Link to="/blog">Blog</Link>
-        {' '}
-        <Link to="/contact">Contact</Link>
+      <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <ul className="navbar-nav">
+          <li key="0" className="nav-item"><Link to="/">Home</Link></li>
+          <li key="1" className="nav-item"><Link to="/portfolio">Portfolio</Link></li>
+          <li key="2" className="nav-item"><Link to="/blog">Blog</Link></li>
+          <li key="3" className="nav-item"><Link to="/contact">Contact</Link></li>
+        </ul>
       </nav>
 
       <main>
