@@ -12,13 +12,11 @@ import Home from './../Home/Home';
 function App() {
   return (
     <div>
-      <Nav className="navbar navbar-expand-md navbar-light bg-light">
-        <ul className="navbar-nav">
-          <li key="0" className="nav-item"><NavLink to="/" activeClassName="active">Home</NavLink></li>
-          <li key="1" className="nav-item"><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
-          <li key="2" className="nav-item"><NavLink to="/blog" activeClassName="active">Blog</NavLink></li>
-          <li key="3" className="nav-item"><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
-        </ul>
+      <Nav className="navbar navbar-expand-md navbar-light bg-light navbar-nav">
+        <NavLink to="/" className="nav-item" activeClassName="active">Home</NavLink>
+        <NavLink to="/portfolio" className="nav-item" activeClassName="active">Portfolio</NavLink>
+        <NavLink to="/blog" className="nav-item" activeClassName="active">Blog</NavLink>
+        <NavLink to="/contact" className="nav-item" activeClassName="active">Contact</NavLink>
       </Nav>
 
       <main>
