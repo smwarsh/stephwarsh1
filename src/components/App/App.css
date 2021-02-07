@@ -7,7 +7,7 @@ main {
  * NAVIGATION
  *
  */
- .navbar {
+.navbar {
   padding: 0;
   background-color: #fff !important;
 }
@@ -17,28 +17,28 @@ main {
   padding-left: 25px;
 }
 
-nav li {
+.nav a {
 	display: flex;
 	margin: 0;
 	padding: 16px 8px;
 }
 
-nav .active {
+.nav .active {
   font-weight: bold;
   background-color: #ff8785;
 }
 
-nav a {
+.nav a {
 	text-decoration: none;
 	color: #333;
 }
 
-nav a:hover,
-nav a:focus {
+.nav a:hover,
+.nav a:focus {
 	text-decoration: underline;
 	color: #333;
 }
 
-nav .active a {
+.nav a.active {
   color: #fff;
 }
