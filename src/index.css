@@ -73,3 +73,37 @@ a {
 		font-size: 28px;
 	}
 }
+
+/*
+ *
+ * SUBPAGES
+ *
+ */
+ .sub-page {
+	background-color: #00787a;
+}
+
+.sub-page h1 {
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.white-bg {
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px gray;
+	background-color: #fff;
+}
+
+.white-bg h2 {
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.sub-page .home-page-link, .home-page-link, .notice {
+	text-align: center;
+}
