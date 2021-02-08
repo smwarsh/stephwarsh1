@@ -41,32 +41,32 @@ const Blog = () => {
           <h3>The how-to</h3>
 
           <p><span className="step">Step 1:</span> In your project's directory, create the new branch and switch to it: 
-          <span className="code">git checkout -b branch_name</span></p>
+          <code>git checkout -b branch_name</code></p>
 
           <p><span className="step">Step 2:</span> To see all branches, with an asterisk next to the current one:
-          <span className="code">git branch -a</span></p>
+          <code>git branch -a</code></p>
 
           <p><span className="step">Step 3:</span> To put the branch on GitHub: 
-          <span className="code">git push origin branch_name</span></p>
+          <code>git push origin branch_name</code></p>
 
           <p><span className="step">Step 4:</span> I'm actually fuzzy on what purpose this step has. A "remote" repository is the repository on GitHub, and this "adds a new remote." One thing I do see is that it adds a new branch to the list of branches called remotes/origin/branch_name:
-          <span className="code">git remote add branch_name_but_different branch_name</span></p>
+          <code>git remote add branch_name_but_different branch_name</code></p>
 
           <p><span className="step">Step 5:</span> Make changes to code, add, and commit.</p>
 
           <p><span className="step">Step 6:</span> To push these changes to the branch on GitHub:
-          <span className="code">git push -u origin branch_name</span></p>
+          <code>git push -u origin branch_name</code></p>
 
           <p><span className="step">Step 7:</span> When you are ready to merge the changes to the master branch, switch back to the master branch:
-          <span className="code">git checkout master</span>
+          <code>git checkout master</code>
           Note: you can switch between any branches with this command.</p>
 
           <p><span className="step">Step 8:</span> To merge from branch_name to master (make sure you are on the master branch for this!): 
-          <span className="code">git merge branch_name --no-ff</span>
+          <code>git merge branch_name --no-ff</code>
           The --no-ff is to keep commit messages from before the merge. You'd think this would be the default, but I guess not.</p>
 
           <p><span className="step">Step 9:</span> To push the changes to the master branch on GitHub: 
-          <span className="code">git push origin master</span></p>
+          <code>git push origin master</code></p>
         </div>
 
         {/**********************************/}
@@ -96,51 +96,51 @@ const Blog = () => {
           <h3>How</h3>
 
           <p><span className="step">Step 1:</span> Have the files you want to put on GitHub in the workspace folder on your computer in their own folder. If you don't have the workspace folder, create it with the command 
-          <span className="code">mkdir workspace</span></p>
+          <code>mkdir workspace</code></p>
 
           <p><span className="step">Step 2:</span> Create the (empty) repository on GitHub.</p>
 
           <p><span className="step">Step 3:</span> Change your location to your project folder (mine is named "thrift"): 
-          <span className="code">cd workspace/thrift</span></p>
+          <code>cd workspace/thrift</code></p>
 
           <p><span className="step">Step 4:</span> Initialize your repository: 
-          <span className="code">git init</span></p>
+          <code>git init</code></p>
 
           <p><span className="step">Step 5:</span> To check what files are in your folder: 
-          <span className="code">ls -al</span> 
+          <code>ls -al</code> 
           You should see .git, which was created in Step 4, in addition to whatever other files were already in the folder.</p>
 
           <p><span className="step">Step 6:</span> Mark files you do not want uploaded: 
-          <span className="code">touch .gitignore</span></p>
+          <code>touch .gitignore</code></p>
 
           <p><span className="step">Step 7:</span> Open .gitignore in a text editor and add .DS_Store and any other file(s) you want to ignore to the file. Each file name goes in plain text on its own line.</p>
 
           <p><span className="step">Step 8:</span> See what is in .gitignore: 
-          <span className="code">cat .gitignore</span></p>
+          <code>cat .gitignore</code></p>
 
           <p><span className="step">Step 9:</span> Add all files in the current repository to the local repository: 
-          <span className="code">git add --all</span></p>
+          <code>git add --all</code></p>
 
           <p><span className="step">Step 10:</span> See what has changed: 
-          <span className="code">git status</span></p>
+          <code>git status</code></p>
 
           <p><span className="step">Step 11:</span> Commit the current version of the project: 
-          <span className="code">git commit -m "Whatever you want to call the commit"</span></p>
+          <code>git commit -m "Whatever you want to call the commit"</code></p>
 
           <p><span className="step">Step 12:</span> Link to the online repository created in Step 2 (I use SSH to connect, and the link is given to you when you create an empty repository on GitHub): 
-          <span className="code">git remote add origin git@github.com:smwarsh/thrift.git</span></p>
+          <code>git remote add origin git@github.com:smwarsh/thrift.git</code></p>
 
           <p><span className="step">Step 13:</span> Push changes: 
-          <span className="code">git push -u origin master</span> 
+          <code>git push -u origin master</code> 
           Note: "origin" refers to the online repository and "master" refers to the local repository.</p>
 
           <p><span className="step">Step 14:</span> Check your files: 
-          <span className="code">git status</span> 
+          <code>git status</code> 
           If all went well, you should see something like: 
-          <span className="code">On branch master<br />Your branch is up-to-date with 'origin/master'.<br />nothing to commit, working tree clean</span></p>
+          <code>On branch master<br />Your branch is up-to-date with 'origin/master'.<br />nothing to commit, working tree clean</code></p>
 
           <p><span className="step">Step 15:</span> When you make more changes later, it is best practice to add changed files inspanidually: 
-          <span className="code">git add README.md</span></p>
+          <code>git add README.md</code></p>
 
         </div>
 
