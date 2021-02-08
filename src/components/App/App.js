@@ -7,6 +7,7 @@ import './App.css';
 import Blog from './../Blog/Blog';
 import Contact from './../Contact/Contact';
 import Portfolio from './../Portfolio/Portfolio';
+import Warner from './../Warner/Warner';
 import Home from './../Home/Home';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
       <main>
         <Switch>
+          <Route path="/portfolio/warner" component={Warner} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/blog" component={Blog} />
           <Route exact path="/" component={Home} />

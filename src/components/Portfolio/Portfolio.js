@@ -76,7 +76,7 @@ const Portfolio = () => {
             <div className="work-item warner">
               <div className="graphic">&nbsp;</div>
               <div className="image">
-                <a href="portfolio/warner.php">
+                <a href="/portfolio/warner">
                   <img src={devWarner} alt="Warner" />
                 </a>
               </div>          
@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <p>Design, HTML, CSS, PHP, CMS</p>
                 <p>I enhanced the website for the graduate school of education at the University of Rochester, transferred content from the old site to the new site, and designed layouts.</p>
                 <p className="click">
-                  <a href="portfolio/warner.php">Learn more &#8594;</a>
+                  <a href="/portfolio/warner">Learn more &#8594;</a>
                 </p>
               </div>{/* .description */}
             </div>{/* .work-item */}
