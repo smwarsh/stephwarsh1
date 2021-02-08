@@ -5,7 +5,7 @@ import './App.css';
 
 // pages
 import Blog from './../Blog/Blog';
-import Contact from './../Contact/Contact';
+// import Contact from './../Contact/Contact';
 import Portfolio from './../Portfolio/Portfolio';
 import Warner from './../Warner/Warner';
 import Home from './../Home/Home';
@@ -18,7 +18,7 @@ function App() {
           <NavLink to="/" exact={true} className="nav-item" activeClassName="active">Home</NavLink>
           <NavLink to="/portfolio" className="nav-item" activeClassName="active">Portfolio</NavLink>
           <NavLink to="/blog" className="nav-item" activeClassName="active">Blog</NavLink>
-          <NavLink to="/contact" className="nav-item" activeClassName="active">Contact</NavLink>
+          {/* <NavLink to="/contact" className="nav-item" activeClassName="active">Contact</NavLink> */}
         </div>
       </Nav>
 
@@ -28,7 +28,7 @@ function App() {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/blog" component={Blog} />
           <Route exact path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
+          {/* <Route path="/contact" component={Contact} /> */}
         </Switch>
       </main>
     </div>
