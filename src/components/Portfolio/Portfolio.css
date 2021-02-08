@@ -1,0 +1,75 @@
+.subp.portfolio .work-item {
+  padding: 25px 0;
+  display: flex;
+}
+
+.subp.portfolio .work-item .graphic {
+  width: 30px;
+  max-height: 200px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.subp.portfolio .work-item .description {
+  width: 90%;
+  padding-left: 24px;
+}
+
+.subp.portfolio .work-item.thrift .graphic {
+  background-image: url('../../img/portfolio/dollars_sm.jpg');
+  background-position-x: left;
+}
+
+.subp.portfolio .work-item.challenge .graphic {
+  background-image: url('../../img/portfolio/challengechannel_sm.jpg');
+  background-position-x: 92%;
+}
+
+.subp.portfolio .work-item.gto .graphic {
+  background-image: url('../../img/portfolio/gto-logo.png');
+  background-position-x: 92%;
+}
+
+.subp.portfolio .work-item.warner .graphic {
+  background-image: url('../../img/portfolio/warner_sm.jpg');
+  background-position-x: 22.6%
+}
+
+.subp.portfolio .work-item .image {
+  display: none;
+  /* text-align: center; */
+  /* margin-bottom: 30px; */
+}
+
+#portfolio img {
+  border-radius: 50%;
+  width: 75%;
+  max-width: 200px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .subp.portfolio .work-item {
+    display: flex;
+  }
+
+  .subp.portfolio .work-item .graphic {
+    display: none;
+  }
+
+  .subp.portfolio .work-item .image {
+    display: block;
+    width: 30%;
+    text-align: left;
+    margin: 0;
+  }
+
+  .subp.portfolio .work-item .image img {
+    width: 80%;
+  }
+
+  .subp.portfolio .work-item .description {
+    width: 70%;
+    padding-left: 0;
+  }
+}
