@@ -174,7 +174,7 @@ const Blog = () => {
 
           <p>I track my expenses in an Excel spreadsheet. I would love a dynamic web application that could replace the currently tedious process, so I set out to make it. I am invested in its success, because ideally I would like to use it when it is complete!</p>
 
-          <p>Thrift started out well. I did have one sizable hiccup in the beginning (<a href="https://github.com/smwarsh/100-days-of-code" target="_blank" rel="noopener noreferrer">check my log for all the gory details</a>), but coding in JavaScript went smoothly after that. I had difficulty moving the code from an online development environment like CodeSandbox to a real website, but Jared helped me when I got seriously stuck.</p>
+          <p>Thrift started out well. I did have one sizable hiccup in the beginning (<a href="https://github.com/smwarsh/100-days-of-code/blob/master/log.md" target="_blank" rel="noopener noreferrer">check my log for all the gory details</a>), but coding in JavaScript went smoothly after that. I had difficulty moving the code from an online development environment like CodeSandbox to a real website, but Jared helped me when I got seriously stuck.</p>
 
           <p>I finished the JavaScript elements, and I was at the point where I needed a database and needed to learn how to implement one. That adventure deserves its own section, so check out “My Accidental Journey into Backend Development” below.</p>
 
@@ -304,8 +304,8 @@ const Blog = () => {
           <p>For over a year, I have been telling myself that I’m going to do three projects in particular, and I have not done them:</p>
 
           <ol>
-          <li><strong>Make <a href="https://www.stephwarsh.com/" target="_blank" rel="noopener noreferrer">my website</a> better.</strong> Improve the content, make the design and code more sophisticated.</li>
-          <li><strong>Expand <a href="https://www.stephwarsh.com/portfolio.php" target="_blank" rel="noopener noreferrer">my portfolio</a>.</strong> A couple of friends have expressed interest in having me make websites for them, and this is a great opportunity and something I’ve been <em>saying</em> I’ll capitalize on, but have not.</li>
+          <li><strong>Make <a href="/" target="_blank" rel="noopener noreferrer">my website</a> better.</strong> Improve the content, make the design and code more sophisticated.</li>
+          <li><strong>Expand <a href="/portfolio" target="_blank" rel="noopener noreferrer">my portfolio</a>.</strong> A couple of friends have expressed interest in having me make websites for them, and this is a great opportunity and something I’ve been <em>saying</em> I’ll capitalize on, but have not.</li>
           <li><strong>Learn JavaScript.</strong> My school, University of Rochester, didn’t have any classes on JavaScript, so although I’m pretty proficient in HTML and CSS, I need Javascript if I want to get a career in web dev. I’ve known this since an interview for a front end web developer position in May 2017 (15 months ago!). That was the moment I realized, “These companies want someone who knows JavaScript. I need to learn JavaScript if I’m going to get a job in this industry.”</li>
           </ol>
 
