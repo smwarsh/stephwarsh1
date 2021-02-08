@@ -27,7 +27,7 @@ const Home = () => {
                   {/* <!-- note to self: remember to add credit when adding external link icon
                   <a target="_blank" href="https://icons8.com/icons/set/external-link">External Link icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>  --> */}
                   <li key="1" className="listItem">
-                    <a href="portfolio.php" title="portfolio">
+                    <a href="/portfolio" title="portfolio">
                       <img src={folderIcon} alt="portfolio" width="40" height="40" />
                     </a>
                   </li>
