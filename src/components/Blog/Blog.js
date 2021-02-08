@@ -139,7 +139,7 @@ const Blog = () => {
           If all went well, you should see something like: 
           <code>On branch master<br />Your branch is up-to-date with 'origin/master'.<br />nothing to commit, working tree clean</code></p>
 
-          <p><span className="step">Step 15:</span> When you make more changes later, it is best practice to add changed files inspanidually: 
+          <p><span className="step">Step 15:</span> When you make more changes later, it is best practice to add changed files individually: 
           <code>git add README.md</code></p>
 
         </div>
