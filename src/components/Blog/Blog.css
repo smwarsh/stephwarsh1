@@ -1,4 +1,6 @@
-.code {
+.code,
+code {
+  display: block;
 	background: rgba(0, 0, 0, .05);
 	padding: 20px;
 	font-family: monospace;
@@ -6,6 +8,7 @@
 }
 
 .step {
+  display: block;
 	font-weight: bold;
 	font-size: 19px;
 }
