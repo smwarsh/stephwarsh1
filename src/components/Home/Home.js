@@ -20,7 +20,7 @@ const Home = () => {
             <div id="resources">
               <ul>
                 <li key="0" className="listItem">
-                  <a href="files/StephWarshCVJan2021.pdf" title="resume" target="_blank" rel="noopener noreferrer">
+                  <a href="files/StephWarshCV.pdf" title="resume" target="_blank" rel="noopener noreferrer">
                     <img src={documentIcon} alt="resume" width="40" height="40" />
                   </a>
                 </li>
