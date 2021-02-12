@@ -2,6 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 
 // images
+import projPotter from '../../img/portfolio/potter-quiz.jpg';
 import projThrift from '../../img/portfolio/dollars_sm.jpg';
 import projChallengeChannel from '../../img/portfolio/challengechannel_sm.jpg';
 import devGTO from '../../img/portfolio/gto-logo.png';
@@ -18,6 +19,23 @@ const Portfolio = () => {
           <div className="white-bg">
     
             <h2>Projects</h2>
+    
+            <div className="work-item potter">
+              <div className="graphic">&nbsp;</div>
+              <div className="image">
+                <a href="https://potternamegame.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <img src={projPotter} alt="ReactJS Harry Potter quiz game screenshot" />
+                </a>
+              </div>
+              <div className="description">
+                <h3>ReactJS Harry Potter Quiz</h3>
+                <p>React JS framework, JSX, JavaScript, CSS</p>
+                <p>I let the Harry Potter nerd in me run wild and coded a dynamic quiz game to see how many Harry Potter characters a user can name in 10 minutes. Functionality and elements include a timer, data structures, deep copies of data, automatic game start, and display of results.</p>
+                <p className="click">
+                  <a href="https://potternamegame.herokuapp.com/" target="_blank" rel="noopener noreferrer">See it in action &#8594;</a>
+                </p>
+              </div>{/* .description */}
+            </div>{/* .work-item */}
     
             <div className="work-item thrift">
               <div className="graphic">&nbsp;</div>

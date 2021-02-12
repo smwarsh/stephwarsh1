@@ -15,6 +15,11 @@
   padding-left: 24px;
 }
 
+.subp.portfolio .work-item.potter .graphic {
+  background-image: url('../../img/portfolio/potter-quiz.jpg');
+  background-position-x: 5%;
+}
+
 .subp.portfolio .work-item.thrift .graphic {
   background-image: url('../../img/portfolio/dollars_sm.jpg');
   background-position-x: left;
