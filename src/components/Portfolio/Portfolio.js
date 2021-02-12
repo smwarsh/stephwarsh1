@@ -2,6 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 
 // images
+import WIP from '../../img/portfolio/wip.jpg';
 import projPotter from '../../img/portfolio/potter-quiz.jpg';
 import projThrift from '../../img/portfolio/dollars_sm.jpg';
 import projChallengeChannel from '../../img/portfolio/challengechannel_sm.jpg';
@@ -73,6 +74,21 @@ const Portfolio = () => {
     
     
             <h2>Experience</h2>
+    
+            <div className="work-item helix wip">
+              <div className="graphic">&nbsp;</div>
+              <div className="image">
+                <img src={WIP} alt="Computer with yellow screen that says under construction" />
+              </div>
+              <div className="description">
+                <h3>Helix Publicity</h3>
+                <p>React JS framework, JSX, JavaScript, CSS, hosting, SEO, QA</p>
+                <p>I am excited to be building a Single-Page Application (SPA) in React for the Helix Publicity corporate website. This will include a Contact form, and I will also be providing technical consulting on topics such as web hosting and will be responsible for SEO and QA testing.</p>
+                <p className="click">
+                  [Link to be added after project completion]
+                </p>
+              </div>{/* .description */}
+            </div>{/* .work-item */}
     
             <div className="work-item gto">
               <div className="graphic">&nbsp;</div>
