@@ -83,7 +83,7 @@ const Portfolio = () => {
               </div>
               <div className="description">
                 <h3>Greater Than One</h3>
-                <p>JavaScript, jQuery, HTML, CSS, Drupal CMS</p>
+                <p>JavaScript, jQuery, HTML, CSS, Drupal, WordPress, Crownpeak, Bootstrap</p>
                 <p>I am given a design file and behavior information and I code the website to mirror it exactly. I pride myself on my clean, organized code for mobile-first sites that are responsive and work well across all major browsers for mobile and desktop devices, including Google Chrome, Firefox, Safari, Edge, and Internet Explorer 11.</p>
                 <p className="click">
                   <a href="https://greaterthanone.com/" target="_blank" rel="noopener noreferrer">Visit the company site &#8594;</a>
